@@ -1,0 +1,41 @@
+
+/* header part */
+
+header{
+    width: 1920px;
+    height: 850px;
+    background-color: #ffaebf42;
+    background-image: url(/img/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 240px;
+}
+
+.container{
+    max-width: 700px;
+    max-height: 500px;
+    padding-top: 200px;
+    padding-left: 240px;
+}
+
+.header-txt h1{
+    font-size: 80px;
+}
+
+.header-txt p{
+    font-size: 18px;
+    color: #27272777;
+}
+
+.header-txt button{
+    width: 180px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: #E55473;
+    cursor: pointer;
+}
+
+
