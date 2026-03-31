@@ -119,7 +119,7 @@ header {
 
 /* Responsive part */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
    header {
     height: 750px;
     background-position: bottom left ;
