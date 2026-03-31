@@ -8,7 +8,7 @@ header {
 
     height: 850px;
     background-color: #ffaebf42;
-    background-image: url(/img/pngwing\ 10.png);
+    background-image: url(../img/pngwing\ 10.png);
     background-repeat: no-repeat;
     background-position: bottom right 240px;
 }
@@ -76,7 +76,7 @@ header {
     height: 540px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
-    background-image: url(/img/pngwing\ 6.png);
+    background-image: url(../img/pngwing\ 6.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-color: #a7216253;
@@ -87,7 +87,7 @@ header {
     height: 540px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
-    background-image: url(/img/pngwing\ 5.png);
+    background-image: url(../img/pngwing\ 5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #0598a05a;
@@ -98,7 +98,7 @@ header {
     height: 540px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
-    background-image: url(/img/pngwing\ 7.png);
+    background-image: url(../img/pngwing\ 7.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-color: #477d115f;
