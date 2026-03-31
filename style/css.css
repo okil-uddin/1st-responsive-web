@@ -1,8 +1,11 @@
+.body {
+    max-width: 1920px;
+}
 
 /* header part */
 
-header{
-    width: 1920px;
+header {
+
     height: 850px;
     background-color: #ffaebf42;
     background-image: url(/img/pngwing\ 10.png);
@@ -10,25 +13,24 @@ header{
     background-position: bottom right 240px;
 }
 
-.container{
+.container {
     max-width: 700px;
-    max-height: 500px;
     padding-top: 200px;
     padding-left: 240px;
 }
 
-.header-txt h1{
+.header-txt h1 {
     margin: 32px 0px;
     font-size: 80px;
 }
 
-.header-txt p{
+.header-txt p {
     margin: 32px 0px;
     font-size: 18px;
     color: #27272777;
 }
 
-.header-txt button{
+.header-txt button {
     width: 180px;
     height: 65px;
     font-size: 20px;
@@ -40,23 +42,100 @@ header{
     cursor: pointer;
 }
 
+/* pProduct section  */
+
+.product-sec {
+    gap: 24px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.product-des {
+    color: #272727af;
+    font-size: 18px;
+}
+
+.card-sec {
+    margin-top: 48px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-pink {
+    width: 465px;
+    height: 540px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-image: url(/img/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: #a7216253;
+}
+
+.products-blue {
+    width: 465px;
+    height: 540px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-image: url(/img/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0598a05a;
+}
+
+.products-green {
+    width: 465px;
+    height: 540px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-image: url(/img/pngwing\ 7.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: #477d115f;
+}
+
+.card-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 312px;
+    margin-top: 32px;
+}
+
+.card-txt{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 /* Responsive part */
 
 @media screen and (max-width:576px) {
-    header{
-        width: 100%;
+    header {
         height: 640px;
         background-position: bottom left;
     }
-    .container{
-        padding-top: 30px;
+
+    .container {
+        padding-top: 10px;
         padding-left: 5px;
     }
-    .header-txt h1{
+
+    .header-txt h1 {
         margin: 32px 0px;
         font-size: 60px;
     }
-    .header-txt p{
+
+    .header-txt p {
         margin: 32px 0px;
         font-weight: 500;
         font-size: 20px;
