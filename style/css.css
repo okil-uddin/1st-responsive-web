@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0.1px;
 }
 
@@ -104,7 +104,7 @@ header {
     background-color: #477d115f;
 }
 
-.card-txt{
+.card-txt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ header {
     margin-top: 32px;
 }
 
-.card-txt{
+.card-txt {
     font-size: 24px;
     font-weight: bold;
 }
@@ -120,31 +120,126 @@ header {
 /* Responsive part */
 
 @media screen and (max-width:600px) {
-   header {
-    height: 750px;
-    background-position: bottom left ;
-   }
+    header {
+        height: 750px;
+        background-position: bottom left;
+    }
 
-   .container{
-    padding-left: 5px;
-    padding-top: 5px;
-   }
+    .container {
+        padding-left: 5px;
+        padding-top: 5px;
+    }
 
-   .header-txt h1{
-    margin: 80px 0px;
-    font-size: 3.2em;
-    text-align: center;
-   }
+    .header-txt h1 {
+        margin: 80px 0px;
+        font-size: 3.2em;
+        text-align: center;
+    }
 
-   .header-txt p{
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #341118ca;
-    text-align: center;
-   }
+    .header-txt p {
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #341118ca;
+        text-align: center;
+    }
 
-   .header-txt button{
-    margin-top: 50px;
-    margin-left: 100px;
-   }
+    .header-txt button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:767px) {
+    header {
+        background-position: bottom right;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    .header-txt {
+        margin-left: 50px;
+    }
+
+    .header-txt h1 {
+        font-size: 4.5em;
+        margin: 50px 0px;
+        text-align: center;
+    }
+
+    .header-txt p {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #37131bc6;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    header {
+        background-position: bottom right;
+    }
+
+    .container {
+        padding: 110px;
+    }
+
+    .header-txt h1 {
+        font-size: 4.5em;
+        text-align: center;
+    }
+
+    .header-txt p {
+        margin: 50px 0px;
+        font-size: 2em;
+        text-align: center;
+        color: #421821d8;
+    }
+
+    .header-txt button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    header {
+        background-position: bottom right;
+    }
+
+    .container {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .header-txt h1 {
+        margin: 1px 0px 70px 0px;
+    }
+
+    .header-txt p {
+        font-size: 1.5em;
+        color: #441a23;
+        margin: 1px 0px 70px 0px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    header{
+        background-position: bottom right;
+    }
+
+    .container{
+        padding-top: 150px;
+        padding-left: 150px;
+    }
+
+    .header-txt h1{
+        margin: 1px 0px 70px 0px;
+    }
+
+    .header-txt p{
+        font-size: 1.5em;
+        color: #441a23;
+        margin: 1px 0px 70px 0px;
+    }
 }
