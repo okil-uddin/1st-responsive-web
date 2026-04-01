@@ -110,16 +110,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 312px;
     margin-top: 32px;
+    text-decoration: underline;
 }
+
+
 
 /* Responsive part */
 
 @media screen and (max-width:600px) {
     header {
         height: 400px;
-        background-position: bottom left;
+        background-position: top right;
     }
 
     .container {
@@ -151,15 +153,15 @@ header {
         text-align: center;
     }
 
-    .card-sec{
-        gap: calc( 100% - 5px ) / 3;
+    .card-sec {
+        gap: calc(100% - 5px) / 3;
     }
 
     .products-pink {
         width: 100px;
         height: 100px;
         border-radius: 100px;
-        background-position:  top left -50px;
+        background-position: top left -50px;
     }
 
     .products-blue {
@@ -184,7 +186,8 @@ header {
 
 @media screen and (min-width:601px) and (max-width:767px) {
     header {
-        background-position: bottom right;
+        height: 550px;
+        background-position: top right;
     }
 
     .container {
@@ -192,17 +195,16 @@ header {
     }
 
     .header-txt {
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     .header-txt h1 {
-        font-size: 4.5em;
+        font-size: 3.5em;
         margin: 50px 0px;
-        text-align: center;
     }
 
     .header-txt p {
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
         font-size: 1.5em;
         font-weight: 600;
@@ -217,38 +219,71 @@ header {
         text-align: center;
     }
 
-    .card-sec {
-        flex-direction: column;
+    .products-pink {
+        width: 180px;
+        height: 180px;
+        border-radius: 180px;
+        background-position: top left;
     }
 
-    .card-txt {
-        display: none;
+    .products-blue {
+        width: 180px;
+        height: 180px;
+        border-radius: 180px;
+        background-position: top center;
     }
+
+    .products-green {
+        width: 180px;
+        height: 180px;
+        border-radius: 180px;
+        background-position: center top;
+    }
+
+    .header-txt button {
+        margin-top: 20px;
+        width: 120px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .card-sec div p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
     header {
+        height: 600px;
         background-position: bottom right;
     }
 
     .container {
-        padding: 110px;
+        padding: 10px;
+    }
+
+    .header-txt {
+        padding-left: 20px;
     }
 
     .header-txt h1 {
-        font-size: 4.5em;
-        text-align: center;
+        font-size: 4em;
     }
 
     .header-txt p {
         margin: 50px 0px;
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
         color: #421821d8;
     }
 
     .header-txt button {
-        margin-top: 10px;
+        margin-top: 20px;
+        width: 140px;
+        height: 60px;
+        font-size: 16px;
     }
 
     .product-sec {
@@ -259,26 +294,43 @@ header {
         text-align: center;
     }
 
-    .card-sec {
-        flex-direction: column;
+    .products-pink {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        background-position: top left;
     }
 
-    .card-txt {
-        display: none;
+    .products-blue {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        background-position: top center;
     }
 
+    .products-green {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        background-position: center top;
+    }
 
+    .card-sec div p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
 
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     header {
+        height: 700px;
         background-position: bottom right;
     }
 
     .container {
-        padding-top: 100px;
-        padding-left: 100px;
+        padding-top: 70px;
+        padding-left: 50px;
     }
 
     .header-txt h1 {
@@ -299,15 +351,30 @@ header {
         text-align: center;
     }
 
-    .products-pink,
-    .products-blue,
-    .products-green {
-        height: 450px;
+    .products-pink {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        background-position: top left;
     }
 
-    .card-txt {
-        margin: 0px;
-        gap: 180px;
+    .products-blue {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        background-position: top center;
+    }
+
+    .products-green {
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        background-position: center top;
+    }
+
+    .card-sec div p {
+        font-size: 20px;
+        margin-top: 10px;
     }
 
 }
@@ -336,8 +403,10 @@ header {
         margin-top: 50px
     }
 
-    .card-txt {
-        margin: 0px;
-        gap: 280px;
+    .products-pink,
+    .products-blue,
+    .products-green {
+        width: 400px;
     }
+
 }
