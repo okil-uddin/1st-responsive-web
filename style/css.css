@@ -150,26 +150,39 @@ header {
     }
 
     .product-sec {
-        margin-top: 20px;
+        margin-top: 60px;
         text-align: center;
     }
 
-    .card-sec {
-        flex-direction: column;
+    .products-pink{
+        width: 192px;
+        height: 192px;
+        border-radius: 192px;
+        background-image: url(../img/pngwing\ 6.png);
+        background-position:  top center ;
     }
 
-    .products-pink,
-    .products-blue,
-    .products-green {
-        width: 380px;
-        height: 450px;
+    .products-blue{
+        width: 192px;
+        height: 192px;
+        border-radius: 192px;
+        background-image: url(../img/pngwing\ 5.png);
+        background-position: top center ;
     }
 
-    .card-txt {
-        display: none;
+    .products-green{
+        width: 192px;
+        height: 192px;
+        border-radius: 192px;
+        background-image: url(../img/pngwing\ 7.png);
+        background-position: top center ;
     }
 
-
+    .card-txt{
+        font-size: 15px;
+        margin-top: 1px;
+        gap:70px;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:767px) {
