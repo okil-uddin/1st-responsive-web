@@ -116,11 +116,11 @@ header {
 
 /* Service part */
 
-.Service-prt{
+.Service-prt {
     padding: 30px;
 }
 
-.service-txt p{
+.service-txt p {
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
@@ -131,7 +131,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .serice-img {
@@ -261,6 +260,65 @@ header {
     background-position: bottom center;
 }
 
+/* Subscribe part */
+
+.subscribe-sec {
+    height: 400px;
+    margin-top: 100px;
+    background-image: url(../img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center
+}
+
+.subscribe-elements {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-elements h1 {
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.subscribe-elements p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #2727279c;
+}
+
+.input-box {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box input {
+    height: 65px;
+    width: 800px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #272727a7;
+    border: none;
+    border-radius: 8px;
+}
+
+.input-box button {
+    height: 64px;
+    width: 155px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #E55473;
+}
+
+
 /* Responsive part */
 
 @media screen and (max-width:600px) {
@@ -328,7 +386,7 @@ header {
         margin-top: 10px;
     }
 
-    .service-txt p{
+    .service-txt p {
         font-size: 30px;
         margin-bottom: 20px;
     }
@@ -390,6 +448,26 @@ header {
 
     .instagram-product {
         flex-direction: column;
+    }
+
+    .subscribe-sec {
+        margin-top: 50px;
+        background-position: inherit;
+    }
+
+    .input-box {
+        flex-direction: column;
+    }
+
+    .input-box input {
+        width: 300px;
+    }
+
+    .input-box button {
+        width: 90px;
+        height: 40px;
+        margin-bottom: 30px;
+        font-size: 15px;
     }
 }
 
@@ -523,6 +601,25 @@ header {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .subscribe-sec {
+        background-position: inherit;
+    }
+
+    .input-box {
+        flex-direction: column;
+    }
+
+    .input-box input {
+        width: 500px;
+    }
+
+    .input-box button {
+        width: 120px;
+        height: 50px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -631,6 +728,23 @@ header {
         margin-left: 30px;
     }
 
+    .subscribe-sec {
+        background-position: inherit;
+    }
+
+    .input-box {
+        flex-direction: column;
+    }
+
+    .input-box input {
+        width: 600px;
+    }
+
+    .input-box button {
+        width: 140px;
+        height: 60px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -709,8 +823,13 @@ header {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .product-pink-rose, .prodict-mix{
+    .product-pink-rose,
+    .prodict-mix {
         margin-left: 100px;
+    }
+
+    .input-box input {
+        width: 700px;
     }
 
 }
