@@ -161,8 +161,6 @@ header {
 }
 
 .discount-title {
-    font-size: 30px;
-    font-weight: bolder;
     text-align: center;
 }
 
@@ -266,6 +264,7 @@ header {
     }
 
     .serice-img {
+        border-radius: 0px;
         height: 120px;
         padding-top: 20px;
     }
@@ -278,6 +277,36 @@ header {
     .serice-img p {
         font-size: 12px;
         font-weight: bold;
+    }
+
+    .discount-prt {
+        height: auto;
+        gap: 30px;
+        margin-top: 50px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        flex-direction: column-reverse;
+    }
+
+    .discount-title h1 {
+        margin: 10px;
+    }
+
+    .discount-title p {
+        padding-bottom: 1px;
+    }
+
+    .discount-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .discount-title button {
+        width: 90px;
+        height: 40px;
+        margin-bottom: 30px;
+        font-size: 15px;
     }
 }
 
@@ -357,6 +386,7 @@ header {
     .serice-img {
         height: 150px;
         padding-top: 25px;
+        border-radius: 0px;
     }
 
     .serice-img img {
@@ -368,6 +398,38 @@ header {
         font-size: 12px;
         font-weight: bold;
     }
+
+    .discount-prt {
+        height: auto;
+        margin-top: 40px;
+        gap: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .discount-title h1{
+        font-size: 35px;
+    }
+
+    .discount-title h1,
+    .discount-title p {
+        padding-bottom: 2px;
+    }
+
+    .discount-title button {
+        width: 120px;
+        height: 50px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .discount-img img{
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+
 
 }
 
@@ -437,6 +499,10 @@ header {
         margin-top: 10px;
     }
 
+    .serice-img {
+        border-radius: 0px;
+    }
+
     .common {
         margin-top: 40px;
     }
@@ -496,6 +562,10 @@ header {
     .card-sec div p {
         font-size: 20px;
         margin-top: 10px;
+    }
+
+    .serice-img {
+        border-radius: 0px;
     }
 
     .common {
