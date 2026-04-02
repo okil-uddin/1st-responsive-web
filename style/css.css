@@ -128,7 +128,7 @@ header {
 .serice-img {
     padding-top: 85px;
     border-radius: 8px;
-    height: 250px;
+    height: 200px;
     width: 420px;
     display: flex;
     flex-direction: column;
@@ -141,6 +141,10 @@ header {
     width: 88px;
     height: 88px;
     margin-bottom: 10px;
+}
+
+.serice-img p{
+    color: #272727b9;
 }
 
 /* Responsive part */
@@ -208,6 +212,26 @@ header {
     .card-sec div p {
         font-size: 15px;
         margin-top: 10px;
+    }
+
+    .common{
+        margin-top: 30px;
+        padding: 1px;
+    }
+
+    .serice-img{
+        height: 120px;
+        padding-top: 20px;
+    }
+
+    .serice-img img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .serice-img p{
+        font-size: 12px;
+        font-weight: bold;
     }
 }
 
@@ -279,6 +303,26 @@ header {
         margin-top: 10px;
     }
 
+    .common{
+        margin-top: 40px;
+        padding: 5px;
+    }
+
+    .serice-img{
+        height: 150px;
+        padding-top: 25px;
+    }
+
+     .serice-img img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .serice-img p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -347,6 +391,10 @@ header {
         margin-top: 10px;
     }
 
+    .common{
+        margin-top: 40px;
+    }
+
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -404,6 +452,10 @@ header {
         margin-top: 10px;
     }
 
+    .common{
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -434,6 +486,10 @@ header {
     .products-blue,
     .products-green {
         width: 400px;
+    }
+
+    .common{
+        margin-top: 60px;
     }
 
 }
