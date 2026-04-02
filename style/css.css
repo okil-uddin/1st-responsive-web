@@ -408,7 +408,7 @@ header {
         flex-direction: column-reverse;
     }
 
-    .discount-title h1{
+    .discount-title h1 {
         font-size: 35px;
     }
 
@@ -424,13 +424,11 @@ header {
         font-size: 15px;
     }
 
-    .discount-img img{
+    .discount-img img {
         margin-top: 20px;
         width: 250px;
         height: 250px;
     }
-
-
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -507,6 +505,24 @@ header {
         margin-top: 40px;
     }
 
+    .discount-prt {
+        height: auto;
+        gap: 30px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .discount-img img {
+        height: 350px;
+        width: 300px;
+    }
+
+    .discount-title button {
+        width: 140px;
+        height: 60px;
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -572,6 +588,13 @@ header {
         margin-top: 50px;
     }
 
+    .discount-prt {
+        height: auto;
+        gap: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -606,6 +629,11 @@ header {
 
     .common {
         margin-top: 60px;
+    }
+
+    .discount-prt {
+        padding-right: 200px;
+        padding-left: 150px;
     }
 
 }
