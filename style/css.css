@@ -318,6 +318,33 @@ header {
     background-color: #E55473;
 }
 
+/* footer sec */
+
+.footer-prt{
+    margin-top: 100px;
+    height: 450px;
+    background-color: #111010;
+}
+
+.footer-title{
+    padding-top: 130px;
+ text-align: center;
+}
+
+.footer-title h1{
+    font-size: 48px;
+}
+
+.footer-des{
+    font-size: 18px;
+    color: white;
+}
+
+.copy-right{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.365);
+}
+
 
 /* Responsive part */
 
