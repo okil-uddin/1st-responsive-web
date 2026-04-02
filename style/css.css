@@ -320,27 +320,27 @@ header {
 
 /* footer sec */
 
-.footer-prt{
+.footer-prt {
     margin-top: 100px;
     height: 450px;
     background-color: #111010;
 }
 
-.footer-title{
+.footer-title {
     padding-top: 130px;
- text-align: center;
+    text-align: center;
 }
 
-.footer-title h1{
+.footer-title h1 {
     font-size: 48px;
 }
 
-.footer-des{
+.footer-des {
     font-size: 18px;
     color: white;
 }
 
-.copy-right{
+.copy-right {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.365);
 }
@@ -496,6 +496,23 @@ header {
         margin-bottom: 30px;
         font-size: 15px;
     }
+
+    .footer-prt {
+        height: 250px;
+        margin-top: 50px;
+    }
+
+    .footer-title {
+        padding-top: 30px;
+    }
+
+    .footer-title h1 {
+        font-size: 35px;
+    }
+
+    .footer-des {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:767px) {
@@ -647,6 +664,15 @@ header {
         font-size: 15px;
     }
 
+    .footer-prt{
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .footer-title{
+        padding-top: 30px;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -772,6 +798,14 @@ header {
         height: 60px;
         font-size: 16px;
     }
+
+    .footer-prt{
+        height: 350px;
+    }
+
+    .footer-title{
+        padding-top: 30px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -858,7 +892,6 @@ header {
     .input-box input {
         width: 700px;
     }
-
 }
 
 @media screen and (min-width:1200px) {
