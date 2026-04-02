@@ -116,13 +116,13 @@ header {
 
 /* Service part */
 
-.common{
+.common {
     margin-top: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    
+
 }
 
 .serice-img {
@@ -143,8 +143,54 @@ header {
     margin-bottom: 10px;
 }
 
-.serice-img p{
+.serice-img p {
     color: #272727b9;
+}
+
+/* Discount part */
+
+.discount-prt {
+    height: 620px;
+    gap: 135px;
+    padding-right: 400px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e554731d;
+}
+
+.discount-title {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.discount-title h1 {
+    padding-bottom: 24px;
+    font-size: 40px;
+}
+
+.red-color {
+    color: red;
+}
+
+.discount-title p {
+    padding-bottom: 32px;
+    font-size: 18px;
+    color: #2727279a;
+}
+
+.discount-title button {
+    height: 64px;
+    width: 155px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #E55473;
 }
 
 /* Responsive part */
@@ -214,22 +260,22 @@ header {
         margin-top: 10px;
     }
 
-    .common{
+    .common {
         margin-top: 30px;
         padding: 1px;
     }
 
-    .serice-img{
+    .serice-img {
         height: 120px;
         padding-top: 20px;
     }
 
-    .serice-img img{
+    .serice-img img {
         width: 60px;
         height: 60px;
     }
 
-    .serice-img p{
+    .serice-img p {
         font-size: 12px;
         font-weight: bold;
     }
@@ -303,22 +349,22 @@ header {
         margin-top: 10px;
     }
 
-    .common{
+    .common {
         margin-top: 40px;
         padding: 5px;
     }
 
-    .serice-img{
+    .serice-img {
         height: 150px;
         padding-top: 25px;
     }
 
-     .serice-img img{
+    .serice-img img {
         width: 60px;
         height: 60px;
     }
 
-    .serice-img p{
+    .serice-img p {
         font-size: 12px;
         font-weight: bold;
     }
@@ -391,7 +437,7 @@ header {
         margin-top: 10px;
     }
 
-    .common{
+    .common {
         margin-top: 40px;
     }
 
@@ -452,7 +498,7 @@ header {
         margin-top: 10px;
     }
 
-    .common{
+    .common {
         margin-top: 50px;
     }
 
@@ -488,7 +534,7 @@ header {
         width: 400px;
     }
 
-    .common{
+    .common {
         margin-top: 60px;
     }
 
