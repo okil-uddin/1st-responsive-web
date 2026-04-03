@@ -383,8 +383,16 @@ header {
         text-align: center;
     }
 
+    .product-des{
+        padding: 0px 10px 0px 10px;
+    }
+
     .card-sec {
         gap: calc(100% - 5px) / 3;
+    }
+
+    .Service-prt{
+        padding: 0;
     }
 
     .products-pink {
@@ -454,12 +462,12 @@ header {
     }
 
     .discount-title p {
-        padding-bottom: 1px;
+        padding: 0px 10px 0px 10px;
     }
 
     .discount-img img {
         width: 200px;
-        height: 200px;
+        height: 250px;
     }
 
     .discount-title button {
@@ -469,7 +477,12 @@ header {
         font-size: 15px;
     }
 
+    .instagram-sec{
+        margin-top: 50px;
+    }
+
     .instagram-des {
+        padding: 0px 10px 0px 10px;
         text-align: center;
     }
 
@@ -482,12 +495,17 @@ header {
         background-position: inherit;
     }
 
+    .subscribe-elements h1{
+        padding: 0px 5px 0px 5px;
+    }
+
     .input-box {
         flex-direction: column;
     }
 
     .input-box input {
         width: 300px;
+        height: 50px;
     }
 
     .input-box button {
@@ -511,6 +529,7 @@ header {
     }
 
     .footer-des {
+        padding: 0px 10px 0px 10px;
         font-size: 16px;
     }
 }
@@ -536,7 +555,6 @@ header {
 
     .header-txt p {
         margin-top: 50px;
-        text-align: center;
         font-size: 1.5em;
         font-weight: 600;
         color: #37131bc6;
@@ -547,6 +565,7 @@ header {
     }
 
     .product-des {
+        padding: 0px 10px 0px 10px;
         text-align: center;
     }
 
@@ -583,14 +602,17 @@ header {
         margin-top: 10px;
     }
 
+    .Service-prt{
+        padding: 0;
+    }
+
     .common {
         margin-top: 40px;
-        padding: 5px;
     }
 
     .serice-img {
         height: 150px;
-        padding-top: 25px;
+        padding: 25px 10px 0px 10px;
         border-radius: 0px;
     }
 
@@ -636,6 +658,7 @@ header {
     }
 
     .instagram-des {
+        padding: 0px 10px 0px 10px;
         text-align: center;
     }
 
@@ -643,6 +666,10 @@ header {
         gap: 2px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-pink-rose, .prodict-mix{
+        margin-left: 20px;
     }
 
     .subscribe-sec {
@@ -654,6 +681,7 @@ header {
     }
 
     .input-box input {
+        height: 55px;
         width: 500px;
     }
 
@@ -671,6 +699,10 @@ header {
 
     .footer-title{
         padding-top: 30px;
+    }
+
+    .footer-des{
+        padding: 0px 10px 0px 10px;
     }
 
 }
@@ -696,7 +728,6 @@ header {
     .header-txt p {
         margin: 50px 0px;
         font-size: 1.5em;
-        text-align: center;
         color: #421821d8;
     }
 
@@ -712,6 +743,7 @@ header {
     }
 
     .product-des {
+        padding: 0px 10px 0px 10px;
         text-align: center;
     }
 
@@ -741,7 +773,12 @@ header {
         margin-top: 10px;
     }
 
+    .Service-prt{
+        padding: 0px 0px 30px 0px;
+    }
+
     .serice-img {
+        padding: 85px 10px 0px 10px;
         border-radius: 0px;
     }
 
@@ -756,6 +793,10 @@ header {
         padding-left: 5px;
     }
 
+    .discount-title p{
+        padding: 0px 5px 0px 5px;
+    }
+
     .discount-img img {
         height: 350px;
         width: 300px;
@@ -767,7 +808,12 @@ header {
         font-size: 16px;
     }
 
+    .instagram-sec{
+        margin-top: 50px;
+    }
+
     .instagram-des {
+        padding: 0px 10px 0px 10px;
         text-align: center;
     }
 
@@ -790,6 +836,7 @@ header {
     }
 
     .input-box input {
+        height: 60px;
         width: 600px;
     }
 
@@ -805,6 +852,10 @@ header {
 
     .footer-title{
         padding-top: 30px;
+    }
+
+    .footer-des{
+        padding: 0px 10px 0px 10px;
     }
 }
 
