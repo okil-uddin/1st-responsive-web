@@ -355,8 +355,7 @@ header {
     }
 
     .container {
-        padding-left: 5px;
-        padding-top: 5px;
+        padding: 10px 0px 0px 10px;
     }
 
     .header-txt h1 {
@@ -368,7 +367,6 @@ header {
         font-size: 1em;
         font-weight: 600;
         color: #341118ca;
-        text-align: center;
     }
 
     .header-txt button {
@@ -383,7 +381,7 @@ header {
         text-align: center;
     }
 
-    .product-des{
+    .product-des {
         padding: 0px 10px 0px 10px;
     }
 
@@ -391,7 +389,7 @@ header {
         gap: calc(100% - 5px) / 3;
     }
 
-    .Service-prt{
+    .Service-prt {
         padding: 0;
     }
 
@@ -477,7 +475,7 @@ header {
         font-size: 15px;
     }
 
-    .instagram-sec{
+    .instagram-sec {
         margin-top: 50px;
     }
 
@@ -495,7 +493,11 @@ header {
         background-position: inherit;
     }
 
-    .subscribe-elements h1{
+    .subscribe-elements{
+        padding-top: 50px;
+    }
+
+    .subscribe-elements h1 {
         padding: 0px 5px 0px 5px;
     }
 
@@ -602,7 +604,7 @@ header {
         margin-top: 10px;
     }
 
-    .Service-prt{
+    .Service-prt {
         padding: 0;
     }
 
@@ -668,12 +670,17 @@ header {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .product-pink-rose, .prodict-mix{
+    .product-pink-rose,
+    .prodict-mix {
         margin-left: 20px;
     }
 
     .subscribe-sec {
         background-position: inherit;
+    }
+
+    .subscribe-elements{
+        padding-top: 50px;
     }
 
     .input-box {
@@ -692,16 +699,16 @@ header {
         font-size: 15px;
     }
 
-    .footer-prt{
+    .footer-prt {
         height: 350px;
         margin-top: 50px;
     }
 
-    .footer-title{
+    .footer-title {
         padding-top: 30px;
     }
 
-    .footer-des{
+    .footer-des {
         padding: 0px 10px 0px 10px;
     }
 
@@ -773,7 +780,7 @@ header {
         margin-top: 10px;
     }
 
-    .Service-prt{
+    .Service-prt {
         padding: 0px 0px 30px 0px;
     }
 
@@ -793,7 +800,7 @@ header {
         padding-left: 5px;
     }
 
-    .discount-title p{
+    .discount-title p {
         padding: 0px 5px 0px 5px;
     }
 
@@ -808,7 +815,7 @@ header {
         font-size: 16px;
     }
 
-    .instagram-sec{
+    .instagram-sec {
         margin-top: 50px;
     }
 
@@ -831,6 +838,10 @@ header {
         background-position: inherit;
     }
 
+    .subscribe-elements{
+        padding-top: 50px;
+    }
+
     .input-box {
         flex-direction: column;
     }
@@ -846,15 +857,15 @@ header {
         font-size: 16px;
     }
 
-    .footer-prt{
+    .footer-prt {
         height: 350px;
     }
 
-    .footer-title{
+    .footer-title {
         padding-top: 30px;
     }
 
-    .footer-des{
+    .footer-des {
         padding: 0px 10px 0px 10px;
     }
 }
