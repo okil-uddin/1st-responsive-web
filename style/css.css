@@ -350,7 +350,7 @@ header {
 
 @media screen and (max-width:600px) {
     header {
-        height: 400px;
+        height: 450px;
         background-position: top right;
     }
 
@@ -359,19 +359,22 @@ header {
     }
 
     .header-txt h1 {
-        margin: 10px;
+        text-align: center;
         font-size: 2.5em;
     }
 
     .header-txt p {
+        margin: 10px;
+        text-align: center;
         font-size: 1em;
         font-weight: 600;
         color: #341118ca;
     }
 
     .header-txt button {
+        margin-left: 10px;
         margin-top: 20px;
-        width: 90px;
+        width: 120px;
         height: 40px;
         font-size: 15px;
     }
