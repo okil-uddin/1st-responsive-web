@@ -350,7 +350,7 @@ header {
 
 @media screen and (max-width:600px) {
     header {
-        height: 450px;
+        height: auto;
         background-position: top right;
     }
 
@@ -372,8 +372,7 @@ header {
     }
 
     .header-txt button {
-        margin-left: 10px;
-        margin-top: 20px;
+        margin: 20px 0px 20px 20px;
         width: 120px;
         height: 40px;
         font-size: 15px;
